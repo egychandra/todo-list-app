@@ -1,4 +1,3 @@
-// src/components/Checklist/ChecklistItem.jsx
 import { useState } from 'react';
 import Button from '../UI/Button';
 import { Link } from 'react-router-dom';

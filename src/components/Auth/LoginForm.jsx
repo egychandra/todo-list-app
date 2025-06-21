@@ -21,7 +21,6 @@ const LoginForm = ({ onLoginSuccess, onSwitchToRegister }) => {
         setError('Login failed: No token received');
       }
     } catch (err) {
-      // Perbaikan: Tampilkan pesan error yang lebih jelas
       if (err.message.includes('Network Error')) {
         setError('Cannot connect to server. Check your internet connection.');
       } else {
